@@ -17,7 +17,7 @@ def create_positions():
     positions = []
     for i in range(5):
         for j in range(5):
-            positions.append((j * 100 + 10, i * 100 + 10, 40, 40))
+            positions.append((j * 100 + 10, i * 100 + 10, 80, 80))
     return positions
 
 
